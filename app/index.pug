@@ -1,0 +1,198 @@
+doctype html
+html(lang="en")
+    head
+        meta(charset="UTF-8")
+        meta(http-equiv="X-UA-Compatible", content="IE=edge")
+        meta(name="viewport", content="width=device-width, initial-scale=1.0")
+        title Document
+        link(rel="stylesheet", href="css/style.min.css")
+    body 
+
+        header.header 
+            .container 
+                nav.nav 
+                    a(href="#").nav__logo
+                        img(src="images/logo.png", alt="logo")
+                    ul.nav__links 
+                        li 
+                            a(href="#").nav__link Homepages 
+                        li 
+                            a(href="#").nav__link Products 
+                        li 
+                            a(href="#").nav__link Company 
+                        li 
+                            a(href="#").nav__link Pricing 
+                        li 
+                            a(href="#").nav__link Blog
+                    .nav__buttons 
+                        a(href="tel:00123456789") +00 123 456 789
+                        button.nav__button Contact Us
+
+        main.main 
+
+            section.first
+                .container 
+                    h1.first__title Good design meets<br>great user experience
+                    p.first__subtitle For everyone, from beginners to experts
+                    .first__buttons 
+                        button.first__button.first__button_active Buy Digits
+                        button.first__button See the Features
+                    img.first__design(src="images/first.png", alt="design") 
+
+            section.partners 
+                .container 
+                    h2.partners__title Trusted by forward-thinking software teams around the world
+                    .partners__block 
+                        .partners__card 
+                            img(src="images/netflix.png", alt="partner")
+                        .partners__card 
+                            img(src="images/drawkit.png", alt="partner")
+                        .partners__card 
+                            img(src="images/figma.png", alt="partner")
+                        .partners__card 
+                            img(src="images/cinemax.png", alt="partner")
+                        .partners__card 
+                            img(src="images/stripe.png", alt="partner")
+                        .partners__card 
+                            img(src="images/google.png", alt="partner")
+                        .partners__card 
+                            img(src="images/disney.png", alt="partner")
+
+            section.about 
+                .container 
+                    h2.about__title Whatever work you do, we're able to help
+                    .about__block 
+                        .about__image 
+                            img(src="images/people.png", alt="peoples")
+                        .about__info 
+                            .about__card 
+                                .about__icon 
+                                    img(src="icons/figma.png", alt="icon")
+                                .about__text 
+                                    h3.about__subtitle Design and Assets
+                                    p.about__descr Make your brand stand out with pixel-perfect design crafted to perfection.
+                            .about__card 
+                                .about__icon 
+                                    img(src="icons/grid.png", alt="icon")
+                                .about__text 
+                                    h3.about__subtitle Easy Content
+                                    p.about__descr Import your demos or build pages visually. Bonus: All images and illustrations included!
+                            .about__card 
+                                .about__icon 
+                                    img(src="icons/lighting.png", alt="icon")
+                                .about__text 
+                                    h3.about__subtitle Fast and Reliable
+                                    p.about__descr No heavy-weight plugins. No builders. No unneccesary file loading. Pure WordPress.
+
+            section.portfolio 
+                h2.portfolio__title Simplicity meets innovative design
+                p.portfolio__subtitle It's really easy to start using Digits.<br>Install the theme, choose a demo and<br>start designing the future of your business!
+                button.portfolio__button Buy Digits
+                .portfolio__block 
+                    .portfolio__column
+                        .portfolio__image 
+                            img(src="images/work1.png", alt="project")
+                        .portfolio__image 
+                            img(src="images/work2.png", alt="project")
+                        .portfolio__image 
+                            img(src="images/work3.png", alt="project")
+                    .portfolio__column
+                        .portfolio__image 
+                            img(src="images/work4.png", alt="project")
+                        .portfolio__image 
+                            img(src="images/work5.png", alt="project")
+                    .portfolio__column
+                        .portfolio__image 
+                            img(src="images/work6.png", alt="project")
+                        .portfolio__image 
+                            img(src="images/work7.png", alt="project")
+                    .portfolio__column
+                        .portfolio__image 
+                            img(src="images/work8.png", alt="project")
+                        .portfolio__image 
+                            img(src="images/work9.png", alt="project")
+                    .portfolio__column
+                        .portfolio__image 
+                            img(src="images/work10.png", alt="project")
+                        .portfolio__image 
+                            img(src="images/work11.png", alt="project")
+
+            section.feedback 
+                .container 
+                    h2.feedback__title What others are saying
+                    .feedback__block 
+                        .feedback__card 
+                            p.feedback__text Completely beautiful website and amazing support! This is my second website from this author and I love both of the sites so much and she has helped me so well when I needed it!
+                            .feedback__image 
+                                img(src="icons/user1.png", alt="avatar")
+                            p.feedback__username Happy User
+                            p.feedback__login tempy.club
+                        .feedback__card 
+                            p.feedback__text Really easy to use and customize. easy to understand. Darinka helped me with my site! She answers very quickly, a good service! Thank you very much!
+                            .feedback__image 
+                                img(src="icons/user2.png", alt="avatar")
+                            p.feedback__username Happy User
+                            p.feedback__login tempy.club
+                        .feedback__card 
+                            p.feedback__text Really pleasing to look at! Documentation (including installation instructions) are clear and that is coming from a relatively new WordPress user.
+                            .feedback__image 
+                                img(src="icons/user3.png", alt="avatar")
+                            p.feedback__username Happy User
+                            p.feedback__login tempy.club
+            
+            section.launch 
+                .container  
+                    .launch__block 
+                        .launch__left 
+                            h2.launch__title Ready to launch<br>your next website?
+                        .launch__right 
+                            button.launch__button 
+                                img.launch__icon(src="icons/mail.png", alt="mail")
+                                p.launch__button-text Get in touch now 
+                            p.launch__descr Or, take a peek inside our <span>design studio</span>
+            
+        footer.footer 
+            .container 
+                .footer__block 
+                    .footer__card 
+                        .footer__logo 
+                            img(src="images/logo.png", alt="logo")
+                        p.footer__text Digits is a website template built to work seamlesly with the WordPress block editor to create beautifully designed pages in minutes.
+                    .footer__card 
+                        a(href="#").footer__title Pages
+                        a(href="#").footer__link Home 
+                        a(href="#").footer__link About 
+                        a(href="#").footer__link News 
+                        a(href="#").footer__link Pricing 
+                        a(href="#").footer__link Contact 
+                    .footer__card 
+                        a(href="#").footer__title Demos
+                        a(href="#").footer__link Classic 
+                        a(href="#").footer__link Boxy 
+                        a(href="#").footer__link Gradient 
+                        a(href="#").footer__link Minimal 
+                        a(href="#").footer__link Night 
+                    .footer__card 
+                        a(href="#").footer__title Resources
+                        .footer__social 
+                            a(href="#") 
+                                img(src="icons/icon-facebook.png", alt="social")
+                            a(href="#") 
+                                img(src="icons/icon-instagram.png", alt="social")
+                            a(href="#") 
+                                img(src="icons/icon-twitter.png", alt="social")
+                            a(href="#") 
+                                img(src="icons/icon-dribbble.png", alt="social")
+                            a(href="#") 
+                                img(src="icons/icon-envato.png", alt="social")
+                        a(href="#").footer__link Download now 
+                        a(href="#").footer__link Documentation
+                .footer__footer 
+                    p.footer__copyright Copyright © 2020 tempy.club
+                    .footer__links 
+                        a(href="#").footer__button Privacy Policy 
+                        a(href="#").footer__button Terms of Use 
+                        a(href="#").footer__button GDPR
+
+
+            
