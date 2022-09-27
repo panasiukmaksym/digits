@@ -1,12 +1,4 @@
-@font-face {
-    font-family: "Halyard Display Book"; 
-    src: url("//db.onlinewebfonts.com/t/b8e43844aee2ac9d9e78518e974389d9.eot"); 
-    src: url("//db.onlinewebfonts.com/t/b8e43844aee2ac9d9e78518e974389d9.eot?#iefix") format("embedded-opentype"), 
-    url("//db.onlinewebfonts.com/t/b8e43844aee2ac9d9e78518e974389d9.woff2") format("woff2"), 
-    url("//db.onlinewebfonts.com/t/b8e43844aee2ac9d9e78518e974389d9.woff") format("woff"), 
-    url("//db.onlinewebfonts.com/t/b8e43844aee2ac9d9e78518e974389d9.ttf") format("truetype"), 
-    url("//db.onlinewebfonts.com/t/b8e43844aee2ac9d9e78518e974389d9.svg#Halyard Display Book") format("svg"); 
-}
+@import "fonts";
 
 * {
     font-family: "Halyard Display Book";
@@ -64,16 +56,34 @@ h1, h2, h3 {
             line-height: 80px;
         }
     }
+    &__menu {
+        height: 40px;
+        padding: 0px 10px;
+        background: #3751FF;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        border-radius: 100px;
+        display: none;
+        svg {
+            width: 30px;
+            height: 30px;
+            fill: #FFFFFF;
+        }
+    }
 }
 
 .first {
     padding-top: 145px;
-    height: calc( 100vh - 80px );
+    height: auto;
     background: linear-gradient(180deg, rgba(242, 249, 255, 0.12) 0%, #F2F9FF 100%);
     .container {
         display: flex;
         flex-direction: column;
         align-items: center;
+    }
+    img {
+        width: 90%;
     }
     &__title {
         font-size: 56px;
@@ -119,6 +129,16 @@ h1, h2, h3 {
         display: flex;
         justify-content: space-between;
         padding-top: 50px;
+    }
+    &__card {
+        width: 14%;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        img {
+            width: auto;
+            height: 100%;
+        }
     }
 }
 
@@ -365,3 +385,5 @@ h1, h2, h3 {
         gap: 20px;
     }
 }
+
+@import "media";
